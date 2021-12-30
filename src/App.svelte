@@ -1,4 +1,6 @@
 <script lang="ts">
+  import Calculator from './components/Calculator.svelte'
+
   export let appName: string
 </script>
 
@@ -6,4 +8,6 @@
   <h1>
     {appName}
   </h1>
+
+  <Calculator />
 </main>
